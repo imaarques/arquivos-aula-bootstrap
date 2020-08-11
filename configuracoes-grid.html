@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Bootstrap - Configurações do grid</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style type="text/css">
+        .marcador {
+            background: #fe9d9d;
+            border: 1px solid #f94646;
+        }
+        
+        .marcador-container {
+            background: #5bf946;
+            border: 1px solid #36ae26;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <ul style="font-size: 18pt; text-transform: uppercase;">
+            <li>
+                <a href="index.html">Formatação de Textos</a>
+            </li>
+            <li>
+                <a href="alinhamento-textos.html">Alinhamento de Textos</a>
+            </li>
+            <li>
+                <a href="elementos-flutuantes.html">Elementos Flutuantes</a>
+            </li>
+            <li>
+                <a href="cores-background.html">Cores e Background</a>
+            </li>
+            <li>
+                <a href="margin-padding.html">Margin e Padding</a>
+            </li>
+            <li>
+                <a href="tamanhos-e-bordas.html">Tamanhos e Bordas</a>
+            </li>
+            <li>
+                <a href="barra-navegacao.html">Barras de Navegação</a>
+            </li>
+            <li>
+                <a href="listas.html">Listas</a>
+            </li>
+            <li>
+                <a href="formularios.html">Formulários</a>
+            </li>
+            <li>
+                <a href="input-group.html">Input group</a>
+            </li>
+            <li>
+                <a href="alertas-barra-progresso.html">Alertas e barras de progresso</a>
+            </li>
+            <li>
+                <a href="tabelas-paginacao.html">Tabelas e paginação</a>
+            </li>
+            <li>
+                <a href="cartoes-parte1.html">Cards</a>
+            </li>
+            <li>
+                <a href="jumbotron-alinhamento-imagens.html">Jumbotron & Alinhamento de imagens</a>
+            </li>
+            <li>
+                <a href="font-awesome.html">Icones</a>
+            </li>
+            <li>
+                <a href="grid.html">Sistema de Grid</a>
+            </li>
+            <li>
+                <a href="configuracoes-grid.html">Configurações do Grid</a>
+            </li>
+            <li>
+                <a href="alinhamento-grid.html">Alinhamento Grid</a>
+            </li>
+            <li>
+                <a href="classes-flexbox.html">Classes do FlexBox</a>
+            </li>
+            <li>
+                <a href="margin-wrap.html">Margin e Wrap</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container marcador-container">
+
+        <h2>Largura fixa</h2>
+        <div class="row">
+            <div class="marcador col">área 1</div>
+            <div class="marcador col">área 2</div>
+            <div class="marcador col">área 3</div>
+            <div class="marcador col">área 4</div>
+        </div>
+
+        <h2>Largura automática (auto-layout)</h2>
+        <div class="row">
+            <div class="marcador col">área 1</div>
+            <div class="marcador col">área 2</div>
+            <div class="marcador col-6">área 3</div>
+        </div>
+
+
+        <h2>Largura igual empilhada</h2>
+        <div class="row">
+            <div class="marcador col-sm">área 1</div>
+            <div class="marcador col-sm">área 2</div>
+            <div class="marcador col-sm">área 3</div>
+        </div>
+
+        <h2>Ordenando</h2>
+        <div class="row">
+            <div class="marcador col-md-4 order-2">área 1</div>
+            <div class="marcador col-md-4 order-3">área 2</div>
+            <div class="marcador col-md-4 order-1">área 3</div>
+        </div>
+
+        <h2>offset</h2>
+        <div class="row">
+            <div class="marcador col-md-6 offset-md-3">Login...</div>
+        </div>
+
+        <h2>offset múltiplos alinhamentos</h2>
+        <div class="row">
+            <div class="marcador col-md-3">Conteúdo 1</div>
+            <div class="marcador col-md-3 offset-md-6">Conteúdo 2</div>
+        </div>
+
+        <h2>Aninhamento</h2>
+        <div class="row">
+            <div class="col-md-6" style="border: 1px solid blue">
+                col-md-6
+                <div class="row">
+                    <div class="col-md-9 marcador">Conteúdo 1</div>
+                    <div class="col-md-3 marcador">Conteúdo 2</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

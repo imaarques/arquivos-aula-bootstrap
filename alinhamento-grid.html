@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Bootstrap - Alinhamento do grid</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style type="text/css">
+        .marcador {
+            background: #fe9d9d;
+            border: 1px solid #f94646;
+            height: 120px;
+        }
+        
+        .marcador-container {
+            background: #5bf946;
+            border: 1px solid #36ae26;
+        }
+        
+        .borda {
+            border: 1px solid blue;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <ul style="font-size: 18pt; text-transform: uppercase;">
+            <li>
+                <a href="index.html">Formatação de Textos</a>
+            </li>
+            <li>
+                <a href="alinhamento-textos.html">Alinhamento de Textos</a>
+            </li>
+            <li>
+                <a href="elementos-flutuantes.html">Elementos Flutuantes</a>
+            </li>
+            <li>
+                <a href="cores-background.html">Cores e Background</a>
+            </li>
+            <li>
+                <a href="margin-padding.html">Margin e Padding</a>
+            </li>
+            <li>
+                <a href="tamanhos-e-bordas.html">Tamanhos e Bordas</a>
+            </li>
+            <li>
+                <a href="barra-navegacao.html">Barras de Navegação</a>
+            </li>
+            <li>
+                <a href="listas.html">Listas</a>
+            </li>
+            <li>
+                <a href="formularios.html">Formulários</a>
+            </li>
+            <li>
+                <a href="input-group.html">Input group</a>
+            </li>
+            <li>
+                <a href="alertas-barra-progresso.html">Alertas e barras de progresso</a>
+            </li>
+            <li>
+                <a href="tabelas-paginacao.html">Tabelas e paginação</a>
+            </li>
+            <li>
+                <a href="cartoes-parte1.html">Cards</a>
+            </li>
+            <li>
+                <a href="jumbotron-alinhamento-imagens.html">Jumbotron & Alinhamento de imagens</a>
+            </li>
+            <li>
+                <a href="font-awesome.html">Icones</a>
+            </li>
+            <li>
+                <a href="grid.html">Sistema de Grid</a>
+            </li>
+            <li>
+                <a href="configuracoes-grid.html">Configurações do Grid</a>
+            </li>
+            <li>
+                <a href="alinhamento-grid.html">Alinhamento Grid</a>
+            </li>
+            <li>
+                <a href="classes-flexbox.html">Classes do FlexBox</a>
+            </li>
+            <li>
+                <a href="margin-wrap.html">Margin e Wrap</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container">
+
+        <h2>Alinhamento vertical (align-items-ALINHAMENTO: start, center, end)</h2>
+        <div class="row">
+            <div class="col">Área 1</div>
+            <div class="col">Área 2</div>
+            <div class="col">Área 3</div>
+        </div>
+
+        <h2>Alinhamento horizontal individual (align-self-ALINHAMENTO: start, center, end)</h2>
+        <div class="row">
+            <div class="col">Área 1</div>
+            <div class="col">Área 2</div>
+            <div class="col">Área 3</div>
+        </div>
+
+        <h2>Alinhamento horizontal colunas (justify-content-ALINHAMENTO: start, center, end)</h2>
+        <div class="row">
+            <div class="marcador col-2">Área 1</div>
+            <div class="marcador col-2">Área 2</div>
+            <div class="marcador col-2">Área 3</div>
+        </div>
+
+        <h2>Distribuição (justify-content-ALINHAMENTO: around, between, end)</h2>
+        <div class="row">
+            <div class="marcador col-2">Área 1</div>
+            <div class="marcador col-2">Área 2</div>
+            <div class="marcador col-2">Área 3</div>
+        </div>
+
+        <h2>Removendo espaçamento</h2>
+        <div class="row">
+            <div class="borda col-2">Área 1</div>
+            <div class="borda col-2">Área 2</div>
+            <div class="borda col-2">Área 3</div>
+        </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
